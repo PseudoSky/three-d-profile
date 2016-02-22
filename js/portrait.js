@@ -85,7 +85,7 @@ function animatePortrait(dt, cursorX, cursorY) {
 
   // make the portrait tilt towards the mouse cursor
   // (feel free to replace this with something else!)
-  x_deg -= .09;//+Math.round(Math.random()*3)*.4;
+  x_deg -= .027;//+Math.round(Math.random()*3)*.4;
   // y_deg += .1;
   // console.log(toggle,z_deg%50,.5/(50-z_deg%50));
   if(z_deg%5==0) {
